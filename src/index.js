@@ -1,7 +1,5 @@
 module.exports = {
   configs: {
-    'bo2kshelf-nest': require('./config/bo2kshelf-nest'),
-    'bo2kshelf-next': require('./config/bo2kshelf-next'),
     es5: require('./config/es5'),
     esnext: require('./config/esnext'),
     graphql: require('./config/graphql'),
