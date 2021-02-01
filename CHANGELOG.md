@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/bo2kshelf/eslint-plugin/compare/v1.0.0...v1.1.0) (2021-02-01)
+
+
+### Features
+
+* Separate shereable config and plugin ([#4](https://github.com/bo2kshelf/eslint-plugin/issues/4)) ([88e454b](https://github.com/bo2kshelf/eslint-plugin/commit/88e454bed158eeca6acc8dd94f2fcbf5f71cc3ae))
+
 # 1.0.0 (2021-02-01)
 
 
