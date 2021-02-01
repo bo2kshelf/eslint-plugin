@@ -11,6 +11,9 @@ node_modules/
 .env*
 !.env.example
 
+# yarn
+yarn.lock
+
 # Editor
 .vscode/*
 !.vscode/extensions.json

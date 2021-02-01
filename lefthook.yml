@@ -1,9 +1,4 @@
-post-checkout:
-  commands:
-    yarn:
-      run: yarn install --frozen-lockfile
-
-commit-msg:
+ commit-msg:
   commands:
     commitlint:
       run: commitlint --edit ./.git/COMMIT_EDITMSG
@@ -12,4 +7,4 @@ pre-push:
   parallel: true
   commands:
     prettier:
-      run: yarn run lint:prettier
+      run: npm run lint:prettier
