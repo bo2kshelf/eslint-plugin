@@ -32,7 +32,8 @@
     "lint:renovate": "scripty"
   },
   "dependencies": {
-    "@shopify/eslint-plugin": "39.0.4"
+    "@shopify/eslint-plugin": "39.0.4",
+    "eslint-plugin-unicorn": "^27.0.0"
   },
   "devDependencies": {
     "@arkweid/lefthook": "0.7.2",
