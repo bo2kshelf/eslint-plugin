@@ -2,17 +2,17 @@
   "name": "@bo2kshelf/eslint-plugin",
   "version": "1.0.0",
   "license": "MIT",
-  "homepage": "https://github.com/bo2kshelf/eslint-config#readme",
+  "homepage": "https://github.com/bo2kshelf/eslint-plugin#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bo2kshelf/eslint-config.git"
+    "url": "https://github.com/bo2kshelf/eslint-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/bo2kshelf/eslint-config/issues"
+    "url": "https://github.com/bo2kshelf/eslint-plugin/issues"
   },
   "keywords": [
     "eslint",
-    "eslint-config"
+    "eslint-plugin"
   ],
   "publishConfig": {
     "@bo2kshelf:registry": "https://registry.npmjs.org",
