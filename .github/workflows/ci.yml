@@ -4,7 +4,6 @@ on: [push]
 
 jobs:
   lint-eslint:
-    name: Lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -15,7 +14,6 @@ jobs:
       - run: yarn lint:eslint
 
   lint-prettier:
-    name: Lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
