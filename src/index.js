@@ -10,5 +10,6 @@ module.exports = {
     prettier: require('./config/prettier'),
     react: require('./config/react'),
     typescript: require('./config/typescript'),
+    unicorn: require('./config/unicorn'),
   },
 };
