@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ['plugin:@bo2kshelf/typescript', 'plugin:@bo2kshelf/prettier'],
+  extends: [
+    'plugin:@bo2kshelf/unicorn',
+    'plugin:@bo2kshelf/typescript',
+    'plugin:@bo2kshelf/prettier',
+  ],
   overrides: [
     {
       files: ['src/**/*.module.ts'],

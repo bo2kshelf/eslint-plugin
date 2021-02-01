@@ -1,6 +1,7 @@
 module.exports = {
   root: true,
   extends: [
+    'plugin:@bo2kshelf/unicorn',
     'plugin:@bo2kshelf/typescript',
     'plugin:@bo2kshelf/jest',
     'plugin:@bo2kshelf/react',
