@@ -1,4 +1,4 @@
- commit-msg:
+commit-msg:
   commands:
     commitlint:
       run: commitlint --edit ./.git/COMMIT_EDITMSG
