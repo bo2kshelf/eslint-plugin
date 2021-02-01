@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+curl -s https://json.schemastore.org/prettierrc > /tmp/schema.json
+ajv migrate -s /tmp/schema.json
+
+node -p 'JSON.stringify(require("./.prettierrc.js"))' > /tmp/data.json
+
+ajv validate \
+  -s /tmp/schema.json \
+  -d /tmp/data.json \
+  --errors=text

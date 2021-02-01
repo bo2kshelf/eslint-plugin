@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# logfiles
+*.log
+
+# cache
+.eslintcache
+
+# environments
+.env*
+!.env.example
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
