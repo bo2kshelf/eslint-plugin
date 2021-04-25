@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@shopify/eslint-plugin": "40.1.0",
-    "eslint-plugin-unicorn": "^29.0.0"
+    "eslint-plugin-unicorn": "^30.0.0"
   },
   "devDependencies": {
     "@arkweid/lefthook": "0.7.2",
