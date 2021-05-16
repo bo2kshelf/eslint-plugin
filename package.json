@@ -36,7 +36,7 @@
     "eslint-plugin-unicorn": "^29.0.0"
   },
   "devDependencies": {
-    "@arkweid/lefthook": "0.7.4",
+    "@arkweid/lefthook": "0.7.5",
     "@bo2kshelf/prettier-config": "1.0.0",
     "@commitlint/cli": "12.1.4",
     "@commitlint/config-conventional": "12.1.4",
